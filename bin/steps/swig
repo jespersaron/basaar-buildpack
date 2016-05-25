@@ -14,8 +14,8 @@ mkdir -p .basaar
 cp -R $CACHE_DIR/swig .basaar
 
 echo "updating path..." | indent
-PATH=$PATH:$BUILD_DIR/.paybox/swig/bin/
+PATH=$PATH:$BUILD_DIR/.basaar/swig/bin/
 export PATH
 echo $PATH | indent
 echo "setting SWIG_LIB environment var"
-export SWIG_LIB=$BUILD_DIR/.paybox/swig/share/swig/2.0.5/
+export SWIG_LIB=$BUILD_DIR/.basaar/swig/share/swig/2.0.5/
