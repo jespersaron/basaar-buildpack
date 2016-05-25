@@ -189,6 +189,9 @@ source $BIN_DIR/steps/python
 # Sanity check for setuptools/distribute.
 source $BIN_DIR/steps/setuptools
 
+# Install SWIG
+source $BIN_DIR/steps/swig
+
 # Uninstall removed dependencies with Pip.
 source $BIN_DIR/steps/pip-uninstall
 
